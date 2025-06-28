@@ -22,9 +22,7 @@ jobs:
         working-directory: client
         run: |
           npm ci
-          npm run build -- \
-            --configuration production \
-            --output-path ../server/wwwroot
+          npm run build -- --configuration production --output-path ../server/wwwroot
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
@@ -38,7 +36,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "Comte-Surmoi"
+          app-name: Comte-Surmoi      
+          resource-group-name: Comte-Surmoi_group
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: server/publish
-          publish-method: zip
