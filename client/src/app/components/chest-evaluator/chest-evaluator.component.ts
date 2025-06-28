@@ -48,7 +48,7 @@ export class ChestEvaluatorComponent implements OnInit {
   this.selectedChest = null;
   this.totalPrice    = 0;
 
-  const url = `http://localhost:5268/api/chests?stage=${encodeURIComponent(this.selectedStage)}`;
+  const url = `/api/chests?stage=${encodeURIComponent(this.selectedStage)}`;
   this.http.get<Chest[]>(url)
     .subscribe(
       data => {
