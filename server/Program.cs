@@ -37,4 +37,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// after MapController routes
+app.MapFallbackToFile("index.html");
+
 app.Run();
