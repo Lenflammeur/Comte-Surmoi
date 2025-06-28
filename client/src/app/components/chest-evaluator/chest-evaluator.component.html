@@ -1,0 +1,55 @@
+<div class="container">
+  <label>Sélectionnez votre étage:</label>
+  <select [(ngModel)]="selectedStage" (change)="onStageChange()">
+    <option *ngFor="let s of stages" [value]="s">{{ s }}</option>
+  </select>
+
+  <h2 *ngIf="selectedStage">Choisir votre coffre</h2>
+
+  <div class="card-grid">
+    <div
+      class="card"
+      *ngFor="let c of chests"
+      [class.selected]="c === selectedChest"
+      (click)="selectChest(c)"
+    >
+      <img [src]="c.imagePath" />
+      <span>{{ c.displayName }}</span>
+    </div>
+  </div>
+
+  <section *ngIf="selectedChest">
+  <h3>Contenu du coffre</h3>
+
+  <div class="loot-columns">
+    <div class="loot-column" *ngFor="let col of groupedOutcomes; trackBy: trackByIndex">
+      <div class="loot-item" *ngFor="let item of col; trackBy: trackByName">
+        <img
+          [src]="item.imagePath"
+          [alt]="item.name"
+          width="40"
+          height="40"
+          class="loot-icon"
+        />
+        <div class="loot-details">
+          <span class="loot-name">{{ item.name }}</span>
+          <span class="loot-prob">{{ item.probability | percent:'1.0-2' }}</span>
+          <input
+            type="number"
+            min="0"
+            step="any"
+            [(ngModel)]="item.userPrice"
+            (ngModelChange)="onPriceChange(item)"
+            attr.aria-label="Prix unitaire de {{ item.name }}"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <button (click)="calculateTotal()">Pricer</button>
+  <div class="price-output">
+    <img src="assets/kamas.png" alt="kamas" width="32" />
+    <span>{{ totalPrice | number:'1.2-2' }}</span>
+  </div>
+</section>
+</div>

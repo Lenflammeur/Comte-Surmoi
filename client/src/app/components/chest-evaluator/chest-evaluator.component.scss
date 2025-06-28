@@ -1,0 +1,38 @@
+.container { padding: 20px; background: #1e1e2f; color: white; }
+.card-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+.card {
+  border: 2px solid #666; padding: 10px; cursor: pointer;
+  background: #1e1e2f; text-align: center;
+}
+.card.selected { border-color: #ffd700; background: #323245; }
+.loot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 10px; margin: 10px 0; }
+.loot-item { display: flex; align-items: center; gap: 8px; }
+.price-output { display: flex; align-items: center; gap: 6px; margin-top: 10px; }
+
+.loot-columns {
+  display: flex;
+  gap: 1rem;
+}
+
+.loot-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.loot-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.loot-icon {
+  flex-shrink: 0;
+}
+
+.loot-details {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  align-items: center;
+}
