@@ -8,13 +8,12 @@ namespace Server.Controllers
     public class ChestsController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<Chest> Get([FromQuery] string stage)
+        public IEnumerable<Chest> Get([FromQuery] string? stage = null)
         {
-            // filter by stage so Angular can ask for the correct tier
-            return ChestData.Chests.Values
-                .Where(c => c.Stage == stage);
+            var all = ChestData.Chests.Values;
+            if (string.IsNullOrEmpty(stage))
+                return all;             // no filter: return everything
+            return all.Where(c => c.Stage == stage);
         }
     }
-
-
 }
