@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/* pick your shade of blue: */
+$bg-blue:  #1e1e2f;   // Indigo-blue
+$text-on-blue: #FFFFFF;
+
+/* Apply to the whole page */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-blue;
+  color: $text-on-blue;
+}
