@@ -40,4 +40,4 @@ jobs:
           resource-group-name: Comte-Surmoi_group
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: server/publish
-          slot-name: ''
+          slot-name: 'staging'
