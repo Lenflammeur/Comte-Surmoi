@@ -2,36 +2,42 @@ name: Build & Deploy to Azure Web App
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with: node-version: '18'
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-    - name: Install & Build Angular
-      working-directory: client
-      run: |
-        npm ci
-        npm run build -- --configuration production --output-path ../server/wwwroot
+      - name: Install & Build Angular
+        working-directory: client
+        run: |
+          npm ci
+          npm run build -- \
+            --configuration production \
+            --output-path ../server/wwwroot
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with: dotnet-version: '8.0.x'
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
 
-    - name: Publish .NET App
-      working-directory: server
-      run: dotnet publish -c Release -o publish
+      - name: Publish .NET App
+        working-directory: server
+        run: dotnet publish -c Release -o publish
 
-    - name: Deploy to Azure Web App
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: Comte-Surmoi
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: server/publish
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: Comte-Surmoi
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: server/publish
