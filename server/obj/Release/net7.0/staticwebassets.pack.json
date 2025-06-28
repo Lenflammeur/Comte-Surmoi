@@ -1,0 +1,253 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\azuree.png",
+      "PackagePath": "staticwebassets\\assets\\azuree.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\bakushana.png",
+      "PackagePath": "staticwebassets\\assets\\bakushana.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\bebemoth.png",
+      "PackagePath": "staticwebassets\\assets\\bebemoth.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\blue_large.png",
+      "PackagePath": "staticwebassets\\assets\\blue_large.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\blue_medium.png",
+      "PackagePath": "staticwebassets\\assets\\blue_medium.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\blue_small.png",
+      "PackagePath": "staticwebassets\\assets\\blue_small.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\bram.png",
+      "PackagePath": "staticwebassets\\assets\\bram.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\buhorado.png",
+      "PackagePath": "staticwebassets\\assets\\buhorado.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\corruption.png",
+      "PackagePath": "staticwebassets\\assets\\corruption.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\cramoisie.png",
+      "PackagePath": "staticwebassets\\assets\\cramoisie.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\crocobur.png",
+      "PackagePath": "staticwebassets\\assets\\crocobur.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\cul.png",
+      "PackagePath": "staticwebassets\\assets\\cul.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\cyan.png",
+      "PackagePath": "staticwebassets\\assets\\cyan.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\dodge.png",
+      "PackagePath": "staticwebassets\\assets\\dodge.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\elixir.png",
+      "PackagePath": "staticwebassets\\assets\\elixir.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\emeraude.png",
+      "PackagePath": "staticwebassets\\assets\\emeraude.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\epatante.png",
+      "PackagePath": "staticwebassets\\assets\\epatante.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\fallanster.png",
+      "PackagePath": "staticwebassets\\assets\\fallanster.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\ganymede.png",
+      "PackagePath": "staticwebassets\\assets\\ganymede.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\gold_large.png",
+      "PackagePath": "staticwebassets\\assets\\gold_large.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\gold_medium.png",
+      "PackagePath": "staticwebassets\\assets\\gold_medium.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\gold_small.png",
+      "PackagePath": "staticwebassets\\assets\\gold_small.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\guerre.png",
+      "PackagePath": "staticwebassets\\assets\\guerre.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\indigo.png",
+      "PackagePath": "staticwebassets\\assets\\indigo.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\jahash.png",
+      "PackagePath": "staticwebassets\\assets\\jahash.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\jhess.png",
+      "PackagePath": "staticwebassets\\assets\\jhess.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\kamas.png",
+      "PackagePath": "staticwebassets\\assets\\kamas.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\kwakarticho.png",
+      "PackagePath": "staticwebassets\\assets\\kwakarticho.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\legendaire.png",
+      "PackagePath": "staticwebassets\\assets\\legendaire.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\legende.png",
+      "PackagePath": "staticwebassets\\assets\\legende.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\magicrabe.png",
+      "PackagePath": "staticwebassets\\assets\\magicrabe.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\majeure.png",
+      "PackagePath": "staticwebassets\\assets\\majeure.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\merveilleuse.png",
+      "PackagePath": "staticwebassets\\assets\\merveilleuse.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\mille.png",
+      "PackagePath": "staticwebassets\\assets\\mille.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\misere.png",
+      "PackagePath": "staticwebassets\\assets\\misere.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\moyenne.png",
+      "PackagePath": "staticwebassets\\assets\\moyenne.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\parme.png",
+      "PackagePath": "staticwebassets\\assets\\parme.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\poukachi.png",
+      "PackagePath": "staticwebassets\\assets\\poukachi.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\prasine.png",
+      "PackagePath": "staticwebassets\\assets\\prasine.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\prysmaradite.png",
+      "PackagePath": "staticwebassets\\assets\\prysmaradite.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\purple_large.png",
+      "PackagePath": "staticwebassets\\assets\\purple_large.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\purple_medium.png",
+      "PackagePath": "staticwebassets\\assets\\purple_medium.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\purple_small.png",
+      "PackagePath": "staticwebassets\\assets\\purple_small.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\reflets.png",
+      "PackagePath": "staticwebassets\\assets\\reflets.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\rune.png",
+      "PackagePath": "staticwebassets\\assets\\rune.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\rykke.png",
+      "PackagePath": "staticwebassets\\assets\\rykke.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\safre.png",
+      "PackagePath": "staticwebassets\\assets\\safre.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\sapin.png",
+      "PackagePath": "staticwebassets\\assets\\sapin.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\servitude.png",
+      "PackagePath": "staticwebassets\\assets\\servitude.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\trompe.png",
+      "PackagePath": "staticwebassets\\assets\\trompe.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\assets\\zinzolin.png",
+      "PackagePath": "staticwebassets\\assets\\zinzolin.png"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\main.762998d9ac1c9a30.js",
+      "PackagePath": "staticwebassets\\main.762998d9ac1c9a30.js"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\polyfills.43f5431e2b561551.js",
+      "PackagePath": "staticwebassets\\polyfills.43f5431e2b561551.js"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\runtime.771c5fa6dd11d129.js",
+      "PackagePath": "staticwebassets\\runtime.771c5fa6dd11d129.js"
+    },
+    {
+      "Id": "C:\\Users\\tsouf\\dofus-evaluator-webapp\\server\\wwwroot\\styles.ef46db3751d8e999.css",
+      "PackagePath": "staticwebassets\\styles.ef46db3751d8e999.css"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.server.props",
+      "PackagePath": "build\\server.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.server.props",
+      "PackagePath": "buildMultiTargeting\\server.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.server.props",
+      "PackagePath": "buildTransitive\\server.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
